@@ -1,0 +1,10 @@
+{
+    "name": "superscrabble-root",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "install-all": "npm install --legacy-peer-deps && npm install --prefix server --legacy-peer-deps && npm install --prefix client --legacy-peer-deps",
+        "build": "npm run install-all && npm run build --prefix client && npm run build --prefix server",
+        "start": "npm run start --prefix server"
+    }
+}
