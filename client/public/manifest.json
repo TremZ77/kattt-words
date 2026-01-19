@@ -1,0 +1,17 @@
+{
+    "name": "KATTT WORDS",
+    "short_name": "KATTT WORDS",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#0f172a",
+    "description": "Multiplayer Super Scrabble Game",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "logo.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml"
+        }
+    ]
+}
